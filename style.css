@@ -7,6 +7,7 @@ html.body {
 	font-size: 1rem ;
 	color: #303137;
 	margin: 0;
+	background-color: wheat;
 	}
 .navbar, .container {
 	max-width: 1140px;
@@ -91,6 +92,31 @@ header
 }
 .icon {
 	width: 180px;
+}
+.section-header {
+	text-align: center;
+	padding: 0 6rem;
+}
+.portfolio-wrapper
+{
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.portfolio-object {
+	max-width: 250px;
+	margin: 1rem 0;
+}
+.portfolio-box {
+	width: 250px;
+	height: 250px;
+	background-color: #F1F3Fa;
+	transition: .2s ease-in-out;
+}
+.portfolio-box:hover
+{
+	cursor: pointer;
+	transform: scale(1.1);
 }
 .blurb-info {
 	font-size: 16px;
