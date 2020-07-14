@@ -122,6 +122,13 @@ header
 	font-size: 16px;
 	color: #646B90;
 }
+.imglib {
+	width: 250px;
+	height: 250px;
+}
+h5 {
+	margin: 0;
+}
 @media (max-width: 768px) {
 	ul.topnav li a.navlink {
 		display: none;
@@ -150,5 +157,16 @@ header
 	ul.topnav.responsive li a.navlink {
 		display: block;
 		line-height: 2;
+	}
+	.media-object {
+		flex-direction: column;
+		text-align: center;
+	}
+	.image-right, image-left {
+		order: 1;
+	}
+	.blurb-left, .blurb-right {
+	order: 2;	
+		padding-top: 2rem;
 	}
 }
