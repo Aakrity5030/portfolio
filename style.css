@@ -17,9 +17,10 @@ body{
 	
 }
 h1 {
-	line-height: 2rem;
+	line-height: 3rem;
 	text-align: center;
 	margin-bottom: 0;
+	font-size: 35px;
 }
 .navbar, .container {
 	max-width: 1140px;
@@ -38,9 +39,10 @@ h1 {
 .brand, .navlink {
 	text-transform: uppercase;
 	color: black;
+	line-height: 3rem;
 }
 .brand {
-	font-size: 25px;
+	font-size: 35px;
 }
 .topnav .navlink, a {
 	text-decoration: none;
@@ -131,7 +133,6 @@ header
 .portfolio-box {
 	width: 250px;
 	height: 250px;
-	background-color: #F1F3Fa;
 	transition: .2s ease-in-out;
 }
 .portfolio-box:hover
