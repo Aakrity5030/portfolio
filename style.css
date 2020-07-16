@@ -78,9 +78,12 @@ header
 	max-height: 300px;
 	width: 100%;
 }
-.services, .contact{
+.services {
 	padding: 2rem 1rem; 
 	background-color: #F1F3Fa;
+}
+.contact {
+	padding: 2rem 1rem; 
 }
 .media-object {
 	display: flex;
@@ -157,7 +160,6 @@ form label {
 	width: 100%;
 	background-color: #ffffff;
 	color: #292b2c;
-	border-radius: 2rem;
 	border: 1px solid #ced4da;
 	padding: .375rem .75rem;
 	font-size: 1rem;
